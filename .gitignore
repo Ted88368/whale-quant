@@ -89,3 +89,5 @@ celerybeat-schedule.*
 
 # VSCode
 .vscode
+
+node_modules/

@@ -16,12 +16,21 @@
    
 2. 安装相关的依赖包
     ```shell
+    conda create -n py39 python=3.9
+    conda activate py39
     pip install -r requirements.txt
     ```
 
 3. docsify框架运行
     ```shell
+    npm config set registry https://registry.npm.taobao.org/
+    npm install docsify-cli -g
+    npm install docsify-pdf-converter -g
     docsify serve ./docs
+
+    # 生成pdf
+    docsify init
+    docsify-pdf-converter
     ```
 
 ## 协作规范
