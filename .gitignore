@@ -91,3 +91,4 @@ celerybeat-schedule.*
 .vscode
 
 node_modules/
+*.csv
